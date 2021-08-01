@@ -4,9 +4,10 @@
   "description": "An example of publishing and deploying architecture for a web application.",
   "main": "index.js",
   "scripts": {
-    "client": "lerna run --scope @chopped/client start",
+    "client": "npx lerna run --scope @chopped/client start --stream",
     "lerna": "lerna",
-    "lint": "standard client packages server"
+    "lint": "standard client packages server",
+    "server": "npx lerna run --scope @chopped/server start --stream"
   },
   "repository": {
     "type": "git",

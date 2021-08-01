@@ -13,7 +13,7 @@ services:
     ports:
       - "3000:3000"
       - "9229:9229"
-    command: "npx lerna run --scope @chopped/client --stream start"
+    command: "npm run client"
   node:
     image: "node:lts-alpine"
     user: "node"
@@ -28,4 +28,4 @@ services:
     ports:
       - "3001:3001"
       - "9339:9339"
-    command: "npx lerna run --scope @chopped/server --stream start"
+    command: "npm run server"
