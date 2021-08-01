@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server",
+    "build": "webpack",
+    "serve": "webpack serve --config webpack.dev.js",
     "test": "jest"
   },
   "keywords": [],
@@ -23,7 +23,8 @@
     "style-loader": "^3.2.1",
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
   },
   "browserslist": ["last 2 versions"]
 }

@@ -1,0 +1,31 @@
+services:
+  client:
+    image: "node:lts-alpine"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./client:/home/node/app
+    expose:
+      - "8080"
+      - "9229"
+    ports:
+      - "9229:9229"
+      - "8080:8080"
+    command: "npm run serve"
+  node:
+    image: "node:lts-alpine"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./server:/home/node/app
+    expose:
+      - "3000"
+      - "9339"
+    ports:
+      - "3000:3000"
+      - "9339:9339"
+    command: "npm start"
