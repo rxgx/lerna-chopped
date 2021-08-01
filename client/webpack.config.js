@@ -32,15 +32,13 @@ module.exports = {
     filename: '[name]-[contenthash].js'
   },
   plugins: [
+    // new InjectBodyWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: '!!html-loader!public/index.html'
+      // title: "Let's Get Chopped!"
+    }),
     new webpack.ProvidePlugin({
       React: 'react'
-    }),
-    new HtmlWebpackPlugin({
-      // template: '!!html-loader!public/index.html',
-      title: "Let's Get Chopped!"
-    }),
-    new InjectBodyWebpackPlugin({
-      content: '<div id="root">Should be replaced by React</div>'
     })
   ],
   resolve: {

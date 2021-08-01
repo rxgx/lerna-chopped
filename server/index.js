@@ -4,7 +4,7 @@ const express = require('express')
 
 const corsConfig = {
   optionsSuccessStatus: 200,
-  origin: ['http://localhost:3000', 'http://localhost:8000']
+  origin: ['http://localhost:3000', 'http://localhost:3001']
 }
 
 const app = express()
@@ -13,7 +13,7 @@ app.use(cors(corsConfig))
 
 app.get('/', (req, res) => res.json(ingredients))
 
-const server = app.listen(3000, () => {
+const server = app.listen(3001, () => {
   const host = server.address().address
   const port = server.address().port
 

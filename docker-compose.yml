@@ -6,14 +6,14 @@ services:
     environment:
       - NODE_ENV=production
     volumes:
-      - ./client:/home/node/app
+      - ./:/home/node/app
     expose:
-      - "8080"
+      - "3000"
       - "9229"
     ports:
-      - "8080:8080"
+      - "3000:3000"
       - "9229:9229"
-    command: "npm run serve"
+    command: "npx lerna run --scope @chopped/client --stream start"
   node:
     image: "node:lts-alpine"
     user: "node"
@@ -21,11 +21,11 @@ services:
     environment:
       - NODE_ENV=production
     volumes:
-      - ./server:/home/node/app
+      - ./:/home/node/app
     expose:
-      - "3000"
+      - "3001"
       - "9339"
     ports:
-      - "3000:3000"
+      - "3001:3001"
       - "9339:9339"
-    command: "npm start"
+    command: "npx lerna run --scope @chopped/server --stream start"
