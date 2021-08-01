@@ -1,3 +1,4 @@
+const ingredients = require('@chopped/ingredients')
 const cors = require('cors')
 const express = require('express')
 
@@ -10,7 +11,7 @@ const app = express()
 
 app.use(cors(corsConfig))
 
-app.get('/', (req, res) => res.send('Server is here to serve you'))
+app.get('/', (req, res) => res.json(ingredients))
 
 const server = app.listen(3000, () => {
   const host = server.address().address
