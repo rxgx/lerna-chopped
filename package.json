@@ -4,10 +4,13 @@
   "description": "An example of publishing and deploying architecture for a web application.",
   "main": "index.js",
   "scripts": {
-    "client": "lerna run --scope @chopped/client serve",
+    "client": "lerna run --scope @chopped/client start",
     "lerna": "lerna",
-    "lint": "standard",
-    "test": "jest"
+    "lint": "standard client packages server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxgx/lerna-example.git"
   },
   "keywords": [
     "lerna",
@@ -18,6 +21,10 @@
     "workspaces"
   ],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
+  "bugs": {
+    "url": "https://github.com/rxgx/lerna-example/issues"
+  },
+  "homepage": "https://github.com/rxgx/lerna-example#readme",
   "license": "MIT",
   "dependencies": {
     "@chopped/client": "file:client",
@@ -29,17 +36,24 @@
     "@babel/plugin-transform-regenerator": "^7.14.5",
     "@babel/preset-env": "^7.14.8",
     "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
     "html-loader": "^2.1.2",
+    "identity-obj-proxy": "^3.0.0",
     "inject-body-webpack-plugin": "^1.3.0",
     "jest": "^27.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "standard": "^16.0.3",
     "style-loader": "^3.2.1",
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0"
+  },
+  "standard": {
+    "env": "jest"
   }
 }
