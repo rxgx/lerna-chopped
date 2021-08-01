@@ -6,7 +6,8 @@ export default function HomePage () {
   const [ingredients, setIngredients] = useState()
 
   useEffect(() => {
-    fetch('http://localhost:3001')
+    window
+      .fetch('http://localhost:3001')
       .then(response => response.json())
       .then(data => setIngredients(data.ingredients))
       .catch(console.error)
