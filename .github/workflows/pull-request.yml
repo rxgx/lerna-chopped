@@ -22,8 +22,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: |
           npm ci
-          npm t --coverage
-          npm run build
+          npx lerna run test --stream
+          npx lerna run build --stream
         env:
           CI: true
           NODE_OPTIONS: '--trace-warnings'
