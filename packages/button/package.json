@@ -2,14 +2,26 @@
   "name": "@chopped/button",
   "version": "1.0.0",
   "description": "Reusable button component",
-  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "commonjs",
   "scripts": {
+    "build": "babel src --out-file dist/index.js --ignore 'src/**/*.test.jsx'",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build",
     "test": "jest"
   },
   "keywords": [],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^17.0.2"
+  "license": "MIT",
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "devDependencies": {
+    "styled-components": "^5.3.1"
   }
 }
