@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A list of ingredients found in baskets as seen on the Food Network show Chopped.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": ["ingredients", "chopped", "basket", "food"],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT"

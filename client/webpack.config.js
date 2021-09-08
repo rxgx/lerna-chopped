@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const InjectBodyWebpackPlugin = require('inject-body-webpack-plugin').default
+// const InjectBodyWebpackPlugin = require('inject-body-webpack-plugin').default
 const path = require('path')
 const webpack = require('webpack')
 

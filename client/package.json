@@ -11,8 +11,11 @@
   "keywords": [],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT",
-  "browserslist": ["supports es6-module-dynamic-import and supports fetch"],
+  "browserslist": [
+    "supports es6-module-dynamic-import and supports fetch"
+  ],
   "dependencies": {
-    "html-webpack-plugin": "^5.3.2"
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.1.0"
   }
 }
