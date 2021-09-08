@@ -1,3 +1,4 @@
+import Button from '@chopped/button'
 import React, { useState } from 'react'
 import styles from './Basket.module.css'
 import createBasket from './createBasket'
@@ -24,13 +25,9 @@ export default function Basket (props) {
         ))}
       </ul>
       <p className={styles.content}>
-        <button
-          className={[styles.button, styles.hitarea].join(' ')}
-          onClick={handleClickEvent}
-          type='button'
-        >
+        <Button onClick={handleClickEvent}>
           <span>{action}</span>
-        </button>
+        </Button>
       </p>
     </div>
   )

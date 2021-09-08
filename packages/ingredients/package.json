@@ -6,7 +6,12 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["ingredients", "chopped", "basket", "food"],
+  "keywords": [
+    "ingredients",
+    "chopped",
+    "basket",
+    "food"
+  ],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT"
 }

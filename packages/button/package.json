@@ -1,0 +1,15 @@
+{
+  "name": "@chopped/button",
+  "version": "1.0.0",
+  "description": "Reusable button component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
