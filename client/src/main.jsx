@@ -5,7 +5,7 @@ import Layout from './layout'
 export default function HomePage () {
   const [ingredients, setIngredients] = useState()
 
-console.log(process.env.CODESPACES, process.env.CODESPACE_NAME)
+  console.log(process.env.CODESPACES, process.env.CODESPACE_NAME)
 
   const uri = process.env.CODESPACES
     ? `${process.env.CODESPACE_NAME}-3000.githubpreview.dev`
