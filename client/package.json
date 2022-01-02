@@ -15,6 +15,6 @@
     "supports es6-module-dynamic-import and supports fetch"
   ],
   "devDependencies": {
-    "@chopped/button": "file:../packages/button"
+    "@chopped/button-esm": "file:../packages/button-esm"
   }
 }

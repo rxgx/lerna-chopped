@@ -1,0 +1,20 @@
+{
+  "name": "@chopped/button-esm",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "index.jsx"
+  ],
+  "main": "index.jsx",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Ryan Gasparini <ryan@rxgx.com>",
+  "license": "MIT",
+  "browserlist": [
+    "last 3 version Chrome",
+    "last 3 version Edge",
+    "last 3 version Firefox",
+    "last 3 version Safari"
+  ]
+}

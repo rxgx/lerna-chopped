@@ -12,6 +12,7 @@
   "scripts": {
     "build": "babel src -d dist --ignore 'src/**/*.test.jsx'",
     "clean": "rimraf dist",
+    "prebuild": "npm run clean",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },

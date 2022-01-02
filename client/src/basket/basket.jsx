@@ -1,4 +1,4 @@
-import Button from '@chopped/button'
+import ButtonESM from '@chopped/button-esm'
 import React, { useState } from 'react'
 import styles from './basket.module.css'
 import createBasket from './createBasket'
@@ -25,9 +25,9 @@ export default function Basket (props) {
         ))}
       </ul>
       <p className={styles.content}>
-        <Button onClick={handleClickEvent}>
+        <ButtonESM onClick={handleClickEvent}>
           <span>{action}</span>
-        </Button>
+        </ButtonESM>
       </p>
     </div>
   )
