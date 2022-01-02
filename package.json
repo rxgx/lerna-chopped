@@ -4,10 +4,11 @@
   "description": "An example of using Lerna to publish and deploy the Chopped web application.",
   "main": "index.js",
   "scripts": {
-    "client": "npx lerna run --scope @chopped/client start --stream",
+    "bootstrap": "lerna bootstrap",
+    "client": "lerna run --scope @chopped/client start --stream",
     "lerna": "lerna",
     "lint": "standard client packages server",
-    "server": "npx lerna run --scope @chopped/server start --stream",
+    "server": "lerna run --scope @chopped/server start --stream",
     "test": "lerna run test --parallel"
   },
   "repository": {
