@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Basket from './Basket'
-import Layout from './Layout'
+import Basket from './basket'
+import Layout from './layout'
 
 export default function HomePage () {
   const [ingredients, setIngredients] = useState()
