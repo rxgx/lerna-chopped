@@ -33,7 +33,10 @@ module.exports = {
   },
   plugins: [
     // new InjectBodyWebpackPlugin(),
-    new webpack.EnvironmentPlugin(['CODESPACES', 'CODESPACE_NAME']),
+    new webpack.EnvironmentPlugin({
+      CODESPACES: false,
+      CODESPACE_NAME: ''
+    }),
     new HtmlWebpackPlugin({
       template: '!!html-loader!public/index.html'
       // title: "Let's Get Chopped!"
