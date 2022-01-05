@@ -80,17 +80,17 @@ module.exports = [
     ]
   },
   {
-    name: "High Hopes",
+    name: 'High Hopes',
     numOverall: 16,
     numSeason: 2,
     numEpisode: 3,
-    date: "June 23, 2009",
+    date: 'June 23, 2009',
     ingredients: [
       { round: 'Appetizer', name: 'calamari' },
       { round: 'Appetizer', name: 'Brussels sprouts' },
       { round: 'Appetizer', name: 'Asian pears' },
       { round: 'Entrée', name: 'bison' },
-      { round: 'Entrée', name: 'dried mango' }, 
+      { round: 'Entrée', name: 'dried mango' },
       { round: 'Entrée', name: 'leeks' },
       { round: 'Entrée', name: 'Belgian-style ale' },
       { round: 'Dessert', name: 'ancho chiles' },
@@ -116,7 +116,7 @@ module.exports = [
     ]
   },
   {
-    name: "Chopped Champions Event, Round Three: All-Stars Showdown",
+    name: 'Chopped Champions Event, Round Three: All-Stars Showdown',
     numOverall: 25,
     numSeason: 2,
     numEpisode: 12,
@@ -132,7 +132,28 @@ module.exports = [
       { round: 'Dessert', name: 'butter crackers' },
       { round: 'Dessert', name: 'grapefruit' },
       { round: 'Dessert', name: 'feta cheese' },
-      { round: 'Dessert', name: 'gin' },
+      { round: 'Dessert', name: 'gin' }
+    ]
+  },
+  {
+    name: '$50,000 Tournament: Grand Finale',
+    date: 'September 28, 2010',
+    numOverall: 60,
+    numSeason: 5,
+    numEpisode: 8,
+    ingredients: [
+      { round: 'Appetizer', name: 'geoduck' },
+      { round: 'Appetizer', name: "Buddha's hand" },
+      { round: 'Appetizer', name: 'black radishes' },
+      { round: 'Appetizer', name: 'waffle cones' },
+      { round: 'Entrée', name: 'smelt' },
+      { round: 'Entrée', name: 'dried red currants' },
+      { round: 'Entrée', name: 'cheese curls' },
+      { round: 'Entrée', name: 'rack of wild boar' },
+      { round: 'Dessert', name: 'champagne' },
+      { round: 'Dessert', name: 'dragon fruit' },
+      { round: 'Dessert', name: 'tahini' },
+      { round: 'Dessert', name: 'cake flour' }
     ]
   }
 ]
