@@ -58,7 +58,7 @@ module.exports = [
     ]
   },
   {
-    name:	'Salty Veggies & Heated Battles',
+    name: 'Salty Veggies & Heated Battles',
     numOverall: 15,
     numSeason: 2,
     date: 'June 16, 2009',
