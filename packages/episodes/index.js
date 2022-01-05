@@ -74,4 +74,5 @@ module.exports = [
       { round: 'Dessert', name: 'pepitas' },
       { round: 'Dessert', name: 'blueberries' }
     ]
+  }
 ]
