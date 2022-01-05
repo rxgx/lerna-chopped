@@ -37,5 +37,24 @@ module.exports = [
       { round: 'Dessert', name: 'pineapple rings' },
       { round: 'Dessert', name: 'blueberries' }
     ]
+  },
+  {
+    name: 'A Prickly Situation',
+    numOverall: 14,
+    numSeason: 2,
+    date: 'June 14, 2009',
+    ingredients: [
+      { round: 'Appetizer', name: 'brioche' },
+      { round: 'Appetizer', name: 'fennel' },
+      { round: 'Appetizer', name: 'sea urchin' },
+      { round: 'Entrée', name: 'blackstrap molasses' },
+      { round: 'Entrée', name: 'red snapper' },
+      { round: 'Entrée', name: 'parsley root' },
+      { round: 'Entrée', name: 'dried cranberries' },
+      { round: 'Dessert', name: 'bulgur wheat' },
+      { round: 'Dessert', name: 'pomegranate juice' },
+      { round: 'Dessert', name: 'pineapple' },
+      { round: 'Dessert', name: 'green papaya' }
+    ]
   }
 ]
