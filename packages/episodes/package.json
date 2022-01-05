@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {},
-  "keywords": [],
+  "keywords": ["episodes", "shows", "seasons", "rounds", "ingredients"],
   "author": "Ryan Gasparini <ryan@rxgx.com>",
   "license": "MIT"
 }
