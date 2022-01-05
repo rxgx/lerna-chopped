@@ -56,5 +56,23 @@ module.exports = [
       { round: 'Dessert', name: 'pineapple' },
       { round: 'Dessert', name: 'green papaya' }
     ]
+  },
+  {
+    name: 'Salty Veggies & Heated Battles',
+    numOverall: 15,
+    numSeason: 2,
+    date: 'June 16, 2009',
+    ingredients: [
+      { round: 'Appetizer', name: 'sea beans', url: 'https://en.wikipedia.org/wiki/Glasswort' },
+      { round: 'Appetizer', name: 'ginger ale', url: 'https://en.wikipedia.org/wiki/Ginger_ale' },
+      { round: 'Appetizer', name: 'pork tenderloin' },
+      { round: 'Entrée', name: 'baby artichokes' },
+      { round: 'Entrée', name: 'cashew butter', url: 'https://en.wikipedia.org/wiki/Cashew_butter' },
+      { round: 'Entrée', name: 'monkfish', url: 'https://en.wikipedia.org/wiki/Monkfish' },
+      { round: 'Entrée', name: 'Thai chiles' },
+      { round: 'Dessert', name: 'jicama' },
+      { round: 'Dessert', name: 'pepitas' },
+      { round: 'Dessert', name: 'blueberries' }
+    ]
   }
 ]
