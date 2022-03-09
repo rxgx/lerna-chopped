@@ -67,12 +67,28 @@ module.exports = [
     numEpisode: 2,
     date: 'June 16, 2009',
     ingredients: [
-      { round: 'Appetizer', name: 'sea beans', url: 'https://en.wikipedia.org/wiki/Glasswort' },
-      { round: 'Appetizer', name: 'ginger ale', url: 'https://en.wikipedia.org/wiki/Ginger_ale' },
+      {
+        round: 'Appetizer',
+        name: 'sea beans',
+        url: 'https://en.wikipedia.org/wiki/Glasswort'
+      },
+      {
+        round: 'Appetizer',
+        name: 'ginger ale',
+        url: 'https://en.wikipedia.org/wiki/Ginger_ale'
+      },
       { round: 'Appetizer', name: 'pork tenderloin' },
       { round: 'Entrée', name: 'baby artichokes' },
-      { round: 'Entrée', name: 'cashew butter', url: 'https://en.wikipedia.org/wiki/Cashew_butter' },
-      { round: 'Entrée', name: 'monkfish', url: 'https://en.wikipedia.org/wiki/Monkfish' },
+      {
+        round: 'Entrée',
+        name: 'cashew butter',
+        url: 'https://en.wikipedia.org/wiki/Cashew_butter'
+      },
+      {
+        round: 'Entrée',
+        name: 'monkfish',
+        url: 'https://en.wikipedia.org/wiki/Monkfish'
+      },
       { round: 'Entrée', name: 'Thai chiles' },
       { round: 'Dessert', name: 'jicama' },
       { round: 'Dessert', name: 'pepitas' },
@@ -154,6 +170,18 @@ module.exports = [
       { round: 'Dessert', name: 'dragon fruit' },
       { round: 'Dessert', name: 'tahini' },
       { round: 'Dessert', name: 'cake flour' }
+    ]
+  },
+  {
+    name: 'Meal of Fortune',
+    date: 'March 8, 2022',
+    numSeason: 51,
+    numEpisode: 10,
+    ingredients: [
+      { round: 'Appetizer', name: 'seafood tower' },
+      { round: 'Appetizer', name: 'bubble blossoms' },
+      { round: 'Appetizer', name: 'saffron water' },
+      { round: 'Appetizer', name: 'caviar potato chips' }
     ]
   }
 ]
