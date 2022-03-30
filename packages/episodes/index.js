@@ -183,5 +183,16 @@ module.exports = [
       { round: 'Appetizer', name: 'saffron water' },
       { round: 'Appetizer', name: 'caviar potato chips' }
     ]
+  },
+  {
+    name: "Room for 'Shrooms",
+    numSeason: 38,
+    numEpisode: 5,
+    ingredients: [
+      { round: 'Appetizer', name: 'monk fish liver' },
+      { round: 'Appetizer', name: 'wintermellon' },
+      { round: 'Appetizer', name: 'snow pea tips' },
+      { round: 'Appetizer', name: 'mushroom cocktail' }
+    ]
   }
 ]
