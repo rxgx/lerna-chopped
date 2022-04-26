@@ -7,7 +7,7 @@
     "bootstrap": "lerna bootstrap",
     "client": "lerna run --scope @chopped/client start --stream",
     "lerna": "lerna",
-    "lint": "standard client packages server",
+    "lint": "standard --env jest client packages server",
     "server": "lerna run --scope @chopped/server start --stream",
     "test": "lerna run test --parallel"
   },
@@ -60,8 +60,5 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.7.2",
     "webpack-merge": "^5.8.0"
-  },
-  "standard": {
-    "env": "jest"
   }
 }

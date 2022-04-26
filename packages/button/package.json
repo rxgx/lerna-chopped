@@ -2,10 +2,7 @@
   "name": "@chopped/button",
   "version": "1.0.0",
   "description": "Reusable button component",
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "commonjs",
@@ -19,9 +16,7 @@
   "keywords": [],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT",
-  "browserslist": [
-    "last 2 Chrome versions"
-  ],
+  "browserslist": ["last 2 Chrome versions"],
   "devDependencies": {
     "styled-components": "^5.3.1"
   },
