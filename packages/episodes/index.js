@@ -198,5 +198,16 @@ module.exports = [
       { round: 'Appetizer', name: 'snow pea tips' },
       { round: 'Appetizer', name: 'mushroom cocktail' }
     ]
+  },
+  {
+    name: "Frying Times",
+    numSeason: 45,
+    numEpisode: 7,
+    ingredients: [
+      { round: 'Appetizer', name: 'tarragon soda' },
+      { round: 'Appetizer', name: 'halibut fillets' },
+      { round: 'Appetizer', name: 'zucchini' },
+      { round: 'Appetizer', name: 'mushroom ravioli' }
+    ]
   }
 ]
