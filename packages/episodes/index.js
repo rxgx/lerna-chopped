@@ -181,7 +181,11 @@ module.exports = [
       { round: 'Appetizer', name: 'seafood tower' },
       { round: 'Appetizer', name: 'bubble blossoms' },
       { round: 'Appetizer', name: 'saffron water' },
-      { round: 'Appetizer', name: 'caviar potato chips' }
+      { round: 'Appetizer', name: 'caviar potato chips' },
+      { round: 'Entrée', name: 'gold-wrapped sushi' },
+      { round: 'Entrée', name: 'lacy cauliflower' },
+      { round: 'Entrée', name: 'torta del casar' },
+      { round: 'Entrée', name: 'rack of berkshire pork' }
     ]
   },
   {
