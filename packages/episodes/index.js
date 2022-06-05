@@ -200,7 +200,7 @@ module.exports = [
     ]
   },
   {
-    name: "Frying Times",
+    name: 'Frying Times',
     numSeason: 45,
     numEpisode: 7,
     ingredients: [
